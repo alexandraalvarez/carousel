@@ -1,0 +1,63 @@
+body {
+  background-color: #000000;
+}
+header {
+  text-align: center;
+  color: #FFFFFF;
+}
+header h1 {
+  margin: 4rem 1rem;
+}
+#carousel {
+    width: 15.9375rem;
+    height: 18.13rem;   
+    margin: 0 auto;
+    overflow: hidden;
+}
+#slides {
+    overflow: hidden;
+    position: relative;
+    width: 15.63rem;
+    height: 15.63rem;
+} 
+#slides ul {
+    position: relative;
+    left: 0;
+    top: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;  
+    width: 109.2rem;            
+}
+#slides li {
+    width: 15.63rem;
+    height: 15.63rem;   
+    float: left;
+}
+#slides li img {
+    padding: 0.25rem;
+}
+#buttons {
+    padding: 0 0 0.3125rem 0; 
+    /*margin-left: 6rem;*/ 
+}
+#buttons a {
+    display: block; 
+    width: 1.938rem; 
+    height: 3rem;
+    text-indent:-999rem; /*Establece la tabulación o indentación de la primera línea del texto de un elemento*/
+    float: left;
+}
+
+a#prev {
+    background:url("../images/left-arrow.png") no-repeat;
+    background-color: #000000; 
+}
+
+a#next {
+    background:url("../images/right-arrow.png") no-repeat; 
+    margin-left: 11.5rem;
+}
+
+.clear {clear:both}
+
